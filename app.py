@@ -15,11 +15,12 @@ if st.button("check book"):
     if user_input.strip() == "":
         st.warning(" please enter book title")
     elif user_input in books:
-        st.succsess(" the book exists in our data base ")
+        st.success(" the book exists in our data base ")
     else:
         st.error(" the book does NOT exist in our data base ")
 
 new_book = st.text_input("add book")
 if st.button("Add"):
     st.write(new_book)
+
 
