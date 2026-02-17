@@ -20,5 +20,6 @@ if st.button("check book"):
         st.error(" the book does NOT exist in our data base ")
 
 new_book = st.text_input("add book")
-if st.button("Add")
+if st.button("Add"):
     st.write(new_book)
+
